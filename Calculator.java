@@ -28,48 +28,48 @@ public class Calculator {
         //x = sc.nextDouble(); //push 4 req
 
         //sum = sc.nextInt();
-        System.out.println("would you like to add or subtract"); //push 2 req
-        //System.out.println("would you like to add or subtract, multiply, or divide "); // push 3 req
+        //System.out.println("would you like to add or subtract"); //push 2 req
+        System.out.println("would you like to add or subtract, multiply, or divide "); // push 3 req
         String opp = sc.next(); //push 2 req
         
-      int result;
-      if (opp.equalsIgnoreCase("add")) {
+      //int result;
+      //if (opp.equalsIgnoreCase("add")) {
          //Calculate the sum of the two numbers
-        result = x + y;
-        System.out.println("The sum of " + x + " and " + y + " is: " + result);
-    } else if (opp.equalsIgnoreCase("subtract")) {
+       // result = x + y;
+        //System.out.println("The sum of " + x + " and " + y + " is: " + result);
+    //} else if (opp.equalsIgnoreCase("subtract")) {
          //Calculate the difference of the two numbers
-       result = x - y;
-        System.out.println("The difference of " + x + " and " + y + " is: " + result);               //required for push 2
-    } else {
-        System.out.println("Invalid operation selected. Please enter 'add' or 'subtract'.");
-    }
+      // result = x - y;
+       // System.out.println("The difference of " + x + " and " + y + " is: " + result);               //required for push 2
+    //} else {
+      //  System.out.println("Invalid operation selected. Please enter 'add' or 'subtract'.");
+    //}
 
-   // double result = 0;
-  //  switch (opp.toLowerCase()) {
-     //   case "add":
-     //       result = x + y;
-     //       System.out.println("The sum of " + x + " and " + y + " is: " + result);
-     //       break;
-     //   case "subtract":
-     //       result = x - y;
-     //       System.out.println("The difference of " + x + " and " + y + " is: " + result);
-     //       break;
-      //  case "multiply":
-       //     result = x * y;
-        //    System.out.println("The product of " + x + " and " + y + " is: " + result);                  // required for push 3 
-       //     break;
-     //   case "divide":
-       //     if (y == 0) {
-       //         System.out.println("Error! Division by zero is not allowed.");   // required for push 5
-       //     } else {
-        //        result = (double) x / y;
-         //       System.out.println("The result of dividing " + x + " by " + y + " is: " + result);
-         //   }
-       //     break;
-      //  default:
-     //       System.out.println("Invalid operation selected.");
-   // }
+   double result = 0;
+    switch (opp.toLowerCase()) {
+        case "add":
+            result = x + y;
+            System.out.println("The sum of " + x + " and " + y + " is: " + result);
+            break;
+        case "subtract":
+            result = x - y;
+            System.out.println("The difference of " + x + " and " + y + " is: " + result);
+            break;
+        case "multiply":
+            result = x * y;
+            System.out.println("The product of " + x + " and " + y + " is: " + result);                  // required for push 3 
+            break;
+        case "divide":
+            if (y == 0) {
+                System.out.println("Error! Division by zero is not allowed.");   // required for push 5
+            } else {
+                result = (double) x / y;
+                System.out.println("The result of dividing " + x + " by " + y + " is: " + result);
+            }
+            break;
+        default:
+            System.out.println("Invalid operation selected.");
+    }
       
        // sum = x + y ;                  //  required for push 1
 
