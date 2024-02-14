@@ -17,7 +17,7 @@ public class Calculator {
         int y = 0;
         //double y = 0;
         //double x = 0;
-        int sum = 0;
+        //int sum = 0;
         
         
 
@@ -27,23 +27,23 @@ public class Calculator {
         //y = sc.nextDouble();  //push 4 req
         //x = sc.nextDouble(); //push 4 req
 
-        sum = sc.nextInt();
-        //System.out.println("would you like to add or subtract"); //push 2 req
+        //sum = sc.nextInt();
+        System.out.println("would you like to add or subtract"); //push 2 req
         //System.out.println("would you like to add or subtract, multiply, or divide "); // push 3 req
-        //String opp = sc.next();
+        String opp = sc.next(); //push 2 req
         
-      //int result;
-     // if (opp.equalsIgnoreCase("add")) {
-        // Calculate the sum of the two numbers
-       // result = x + y;
-       // System.out.println("The sum of " + x + " and " + y + " is: " + result);
-   // } else if (opp.equalsIgnoreCase("subtract")) {
-        // Calculate the difference of the two numbers
-     //   result = x - y;
-     //   System.out.println("The difference of " + x + " and " + y + " is: " + result);               //required for push 2
-   // } else {
-       // System.out.println("Invalid operation selected. Please enter 'add' or 'subtract'.");
-   // }
+      int result;
+      if (opp.equalsIgnoreCase("add")) {
+         //Calculate the sum of the two numbers
+        result = x + y;
+        System.out.println("The sum of " + x + " and " + y + " is: " + result);
+    } else if (opp.equalsIgnoreCase("subtract")) {
+         //Calculate the difference of the two numbers
+       result = x - y;
+        System.out.println("The difference of " + x + " and " + y + " is: " + result);               //required for push 2
+    } else {
+        System.out.println("Invalid operation selected. Please enter 'add' or 'subtract'.");
+    }
 
    // double result = 0;
   //  switch (opp.toLowerCase()) {
@@ -71,7 +71,7 @@ public class Calculator {
      //       System.out.println("Invalid operation selected.");
    // }
       
-        sum = x + y ;                  //  required for push 1
+       // sum = x + y ;                  //  required for push 1
 
 
        // double result = 0;
@@ -107,16 +107,16 @@ public class Calculator {
         
     
         
-    System.out.println("The Sum of the two numbers is " + sum);     //push 1 req 
+    //System.out.println("The Sum of the two numbers is " + sum);     //push 1 req 
 
         sc.close();
         
         
 
-   // }
+    }
    // sc.close();
 
-}
-}
+  }
+
     
 
